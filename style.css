@@ -1,0 +1,163 @@
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: sans-serif;
+ background-color: #1F1F1F;
+}
+
+nav {
+ padding: 10px 25px;
+ font-size: 40px;
+}
+
+#menue-button {
+ margin-right: 15px;
+}
+
+.news {
+ background-color: #B10000;
+ padding: 7px 15px;
+ font-size: 25px;
+}
+
+.news:hover {
+ background-color: orangered;
+}
+
+.ads {
+ padding: 25px 50px;
+ align-items: center;
+ font-size: 35px;
+ background-color: white;
+}
+
+main {
+ padding: 5px 18px;
+}
+
+.buy-ticket {
+ background-color: #2734C3;
+ padding: 27px 50px;
+ font-size: 25px;
+}
+
+.buy-ticket:hover {
+ background-color: #E1C000;
+}
+
+.traveling-means {
+ font-size: 30px;
+ padding: 15px 10px;
+ margin: 10px 0px 50px 0px;
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-row-gap: 25px;
+ grid-column-gap: 10px;
+}
+
+.mean-box img {
+ border-radius: 7px;
+ width: 23vw;
+}
+
+.other, .safety, .em {
+ margin: 50px 0px 7px 0px;
+ font-size: 30px;
+}
+
+.other-content, .safety-content, .em-content {
+ background-color: lightgrey;
+}
+
+.other-content div, .safety-content div, .em-content div {
+ padding: 17px 10px;
+ font-size: 40px;
+}
+
+.other-content div:hover, .safety-content div:hover, .em-content div:hover {
+ background-color: white !important;
+}
+
+.other-content div:nth-child(odd), .safety-content div:nth-child(odd), .em-content div:nth-child(odd) {
+ background-color: #DDDDDD;
+}
+
+.other-content div:nth-child(even), .safety-content div:nth-child(even), .em-content div:nth-child(even) {
+ background-color: #E8E8E8;
+}
+
+
+
+.flex {
+ display: flex;
+}
+
+.seperate {
+ justify-content: space-between;
+}
+
+.all-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.white {
+ color: white;
+}
+
+.black {
+ color: black;
+}
+
+.bold {
+ font-weight: 900;
+}
+
+.bolder {
+ font-weight: bolder;
+}
+
+.light {
+ font-weight: lighter;
+}
+
+.text-center {
+ text-align: center;
+}
+
+
+
+.loading-bar {
+ height: 3px;
+ width: 100vw;
+}
+
+.main-color {
+ background-color: #B10000;
+}
+
+.sub-main-color {
+ background-color: #CF0000;
+}
+
+#sideBar{
+    height: 100vh;
+    width: 40vw;
+    background-color: royalblue;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    z-index: 9999999999;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
